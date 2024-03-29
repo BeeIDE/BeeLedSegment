@@ -1,5 +1,5 @@
 ({
-    name: "Led Segment Module", // Category Name
+    name: "Led Digit", // Category Name
     description: "Led 7 segments",
     author: "BeeBlock",
     category: "Sensors",
