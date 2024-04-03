@@ -9,8 +9,9 @@ Blockly.defineBlocksWithJsonArray([
                 "name": "message",
             },
             {
-                "type": "field_dropdown",
+                "type": "field_grid_dropdown",
                 "name": "port",
+                "columns": 2,
                 "options": [
                     ["PORT1", "PORT1"],
                     ["PORT2", "PORT2"],
