@@ -15,13 +15,20 @@
                             <field name="TEXT">Hello</field>
                         </shadow>
                     </value>
-                    <value name="port">
-                        <shadow type="math_number">
-                            <field name="NUM">6</field>
+                </block>
+            `
+        },
+        {
+            xml: `
+                <block type="led7seg_temperature">
+                    <value name="message">
+                        <shadow type="text">
+                            <field name="TEXT">35</field>
                         </shadow>
                     </value>
                 </block>
             `
         },
+        "led7seg_clear"
     ]
 });
