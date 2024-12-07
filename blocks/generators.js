@@ -33,7 +33,7 @@ Blockly.Python['led7seg_temperature'] = function(block) {
    return code;
 };
 
-Blockly.Python['led7seg_temperature'] = function(block) {
+Blockly.Python['led7seg_clear'] = function(block) {
    if (!check_if_top_block_has_hat(block)) return '';
 
    Blockly.Python.definitions_['from_BeeBrain_import_bee'] = 'from BeeBrain import bee';
